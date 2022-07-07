@@ -1,0 +1,15 @@
+name: gpt-critic
+channels:
+  - pytorch
+
+dependencies:
+  - python=3.6.13
+  - pytorch=1.5.0
+  - torchvision
+  - cudatoolkit=10.2
+  - nltk=3.5
+  - spacy=2.3.5
+  - tensorboard=2.3.0
+  - pip:
+    - importlib-metadata==4.8.3
+    - transformers==2.11.0
